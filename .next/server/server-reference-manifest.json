@@ -1,5 +1,17 @@
 {
-  "node": {},
+  "node": {
+    "401ba9823da45a2b780c6bdfda75d14fd2247a6d02": {
+      "workers": {
+        "app/create-post/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdong%2FSDB2%2Fhome%2Fdhlee%2FDocuments%2FGitHub%2Fkinde-app-first%2Fsrc%2Fapp%2Fcreate-post%2Factions.ts%22%2C%5B%7B%22id%22%3A%22401ba9823da45a2b780c6bdfda75d14fd2247a6d02%22%2C%22exportedName%22%3A%22handleCreatePost%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/create-post/page": "rsc"
+      }
+    }
+  },
   "edge": {},
   "encryptionKey": "zbFOT62mjlnpQNXdXGRUWDFh0kTH15axWmC4McU21lg="
 }

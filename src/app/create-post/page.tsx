@@ -1,8 +1,10 @@
+import { handleCreatePost } from "./actions";
+
 export default function CreatePost() {
   return (
     <main className="text-center pt-16 px-5">
       <h1 className="text-4xl md:text-5xl font-bold mb-5">Create a New Post</h1>
-      <form className="max-w-md mx-auto">
+      <form action={handleCreatePost} className="max-w-md mx-auto">
         <div className="mb-4">
           <label htmlFor="title" className="block text-left mb-2 font-medium">
             Title
