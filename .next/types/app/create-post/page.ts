@@ -1,8 +1,8 @@
-// File: /home/dong/SDB2/home/dhlee/Documents/GitHub/kinde-app-first/src/app/posts/page.tsx
-import * as entry from '../../../../src/app/posts/page.js'
+// File: /home/dong/SDB2/home/dhlee/Documents/GitHub/kinde-app-first/src/app/create-post/page.tsx
+import * as entry from '../../../../src/app/create-post/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/posts/page.js')
+type TEntry = typeof import('../../../../src/app/create-post/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
